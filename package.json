@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "braintree": "^2.0.2",
     "express": "^4.15.2",
     "firebase": "^3.8.0"
   }
