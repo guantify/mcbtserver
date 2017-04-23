@@ -56,10 +56,10 @@ app.post("/checkout", function (req, res) {
     console.log("result is " + JSON.stringify(result));
     if (err != null) {
 
-      res.send("error is " + err);
+      res.send("error is " + JSON.stringify(err));
     } else {
       if (result['errors'] != null) {
-        res.send("err is " + result['errors']);
+        res.send("err is " + JSON.stringify(result['errors']));
       } else {
         res.send("success");
       }
